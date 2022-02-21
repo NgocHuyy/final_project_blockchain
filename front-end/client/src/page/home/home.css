@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    text-align: center;
+
+  }
+  #create{
+    width: 50%;
+    margin-left: 20px;
+  }
+  #create h2{
+    text-align: center;
+    padding: 1rem 0;
+    
+  }
+  
+  .form-create{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-create label{
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+  }
+  .form-create input{
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 5px ;
+  }
+  
+  #container{
+   height: 100px;
+   width: 100%;
+  }
+
+  
+  button{
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgb(27, 233, 71);
+    cursor: pointer;
+    border-radius: 5px;
+    color: #000;
+    /* transform: translateX(2rem); */
+  }
+  
+  table{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-spacing: 0;
+      border-collapse: collapse;
+  }
+  
+  table tr{
+    height: 50px;
+  }
+  table thead{
+    background-color: grey;
+  }
+  table tbody tr{
+    border-bottom: 1px solid #ccc;
+  }

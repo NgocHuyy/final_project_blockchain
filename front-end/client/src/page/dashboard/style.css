@@ -1,0 +1,11 @@
+.title_table{
+    padding: 0.2rem 0;
+    font-size: 20px;
+    font-weight: bold;
+    /* font-family:'Times New Roman', Times, serif; */
+    border-bottom: 2px solid #0f0f0f;
+    display: block;
+    width: 250px;
+    color: #0a0a0a;
+    margin: 10px 0;
+}
